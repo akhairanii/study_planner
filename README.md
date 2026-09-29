@@ -56,19 +56,20 @@ Gambar tampilan layar aplikasi dapat dilihat pada folder assets/ atau melalui ta
 Link Screenshoot: https://drive.google.com/drive/folders/19qoaXarUbWxJqLY3vzRmB2jkt4SrweA3?usp=drive_link
 
 ### Video Demonstrasi Aplikasi
-Video penjelasan dan demonstrasi pengujian fitur aplikasi berdurasi 4-6 menit dapat diakses melalui tautan berikut:
+Video penjelasan dan demonstrasi pengujian fitur aplikasi berdurasi 4-6 menit dapat
+diakses melalui tautan berikut:
 Link Video Demo: https://drive.google.com/drive/folders/1M43Y1A9oUbQ9dTW8s1fn4Z2zQ-pG13fD
+
 ---
 
 ## Struktur Folder Proyek
 
-lib/
-├── models/         # Model data aplikasi (Activity)
-├── providers/      # Manajemen state (ActivityProvider)
-├── routes/         # Pengaturan navigasi halaman (AppRouter)
-├── screens/        # Tampilan utama/halaman aplikasi
-├── widgets/        # Komponen UI yang bisa dipakai ulang (ActivityCard)
-└── main.dart       # Titik awal jalurnya aplikasi Flutter
+lib/models/activity                 # Model data aplikasi (Activity)
+lib/providers/activityProvider      # Manajemen state (ActivityProvider)
+lib/routes/appRouter                # Pengaturan navigasi halaman (AppRouter)
+lib/screens/                        # Tampilan utama/halaman aplikasi
+lib/widgets/activityCard            # Komponen UI yang bisa dipakai ulang (ActivityCard)
+lib/main.dart                       # Titik awal jalurnya aplikasi Flutter
 
 ---
 
